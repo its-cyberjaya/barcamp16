@@ -1,1 +1,42 @@
-h1 Hello World
+.container-fluid
+  .row
+    .col-xs-12
+      h1 BarCamp Cyberjaya 2016
+
+.container
+  .row
+    .col-xs-12
+      h2.text-center Attendees will talk about...
+
+  .row
+    - 10.times
+      .talk-box
+        .speaker-picture
+          img.img-circle[src="http://placehold.it/40x40"]
+        .talk-details
+          .talk-title How to write program without using code
+          .speaker-name Speaker Name
+    .talk-box
+      .speaker-picture
+        img.img-circle[src="http://placehold.it/40x40"]
+      .talk-details
+        .talk-title I would like to give a talk
+        .speaker-name Pledge
+
+  .row
+    .col-xs-12
+      h2.text-center What is BarCamp
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptas maiores sunt, repellendus repudiandae placeat, itaque sit unde excepturi rem molestiae commodi quasi. Assumenda, neque! Magni, debitis. Tempora saepe, sapiente.
+
+  .row
+    .col-xs-12
+      h2.text-center Happening at
+      h4.text-center Faculty of Computing and Informatics, Multimedia University (Cyberjaya)
+
+.container-fluid
+  a.get-ticket-button
+
+.container
+  .row
+    .col-xs-12
+      h2.text-center Sponsor Us!

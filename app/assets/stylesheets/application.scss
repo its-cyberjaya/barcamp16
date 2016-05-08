@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.talk-box {
+  @extend .col-xs-12, .col-md-4, .row;
+  padding: 5px 0px;
+
+  .speaker-picture {
+    @extend .col-xs-3;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    padding: 5px;
+  }
+
+  .talk-details {
+    @extend .col-xs-9;
+    
+    .talk-title {
+
+    }
+
+    .speaker-name {
+      color: gray;
+    }
+  }
+}

@@ -15,13 +15,14 @@ gem 'puma_worker_killer'
 
 # HTML CSS JS gems
 gem 'slim-rails'
-gem 'sass-rails'
+gem 'sass-rails', '>= 3.2'
 gem 'coffee-rails'
 gem 'autoprefixer-rails'
 gem 'coffee-script-source', '=1.8.0'
 gem 'jquery-rails', '~> 4.1.1'
 gem 'jquery-ui-rails'
 gem 'uglifier'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Caching
 gem 'dalli'
@@ -30,11 +31,14 @@ gem 'actionpack-action_caching'
 gem 'rack-cache'
 
 # Utilities
+gem 'devise'
+gem 'omniauth-facebook'
 gem 'pry-rails'
 gem 'raygun4ruby'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 
 group :development do
+  gem 'rb-fsevent'
   gem 'rails-dev-boost', :git => 'https://github.com/thedarkone/rails-dev-boost.git'
   gem 'better_errors'
   gem 'bullet'
