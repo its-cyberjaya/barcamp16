@@ -10,18 +10,17 @@
 
   .row
     - 10.times
-      .talk-box
-        .speaker-picture
-          img.img-circle[src="http://placehold.it/40x40"]
-        .talk-details
-          .talk-title How to write program without using code
-          .speaker-name Speaker Name
-    .talk-box
-      .speaker-picture
-        img.img-circle[src="http://placehold.it/40x40"]
-      .talk-details
-        .talk-title I would like to give a talk
-        .speaker-name Pledge
+      .col-xs-12.col-sm-4
+        .talk-box
+          .speaker-picture
+            img.img-circle[src="http://placehold.it/40x40"]
+          .talk-details
+            .talk-title How to write program without using code
+            .speaker-name Speaker Name
+
+  .row
+    .col-xs-12.col-sm-8-col-sm-offset-2.col-md-6.col-md-offset-3
+      a.btn.btn-primary.btn-block.btn-large[href=new_talk_path] I want to talk!
 
   .row
     .col-xs-12

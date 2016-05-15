@@ -26,8 +26,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 # Caching
 gem 'dalli'
-gem 'actionpack-page_caching'
-gem 'actionpack-action_caching'
 gem 'rack-cache'
 
 # Utilities
@@ -44,7 +42,6 @@ group :development do
   gem 'bullet'
   gem 'sextant'
   gem 'thin'
-  gem 'traceroute'
   gem 'dotenv'
   gem 'awesome_print', require: 'ap'
   gem 'meta_request'
